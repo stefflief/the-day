@@ -13,7 +13,7 @@
 #card h2 {
    font-size:3em;
    margin:0;
-   color:pink;
+   color:beige;
    text-align: center;
 }
 #card p {
@@ -47,7 +47,7 @@ body {
    justify-content: center;
    height: 100vh;
    font-family: 'Sacramento', cursive;
-   background-color: #f1e3d3;
+   background-color: #323232;
    overflow: hidden;
  }
  
@@ -85,7 +85,7 @@ body {
  
  .heart {
    position: relative;
-   background-color: #e01911;
+   background-color: #e1b0ac;
    display: inline-block;
    height: 180px;
    top:50px;
@@ -98,7 +98,7 @@ body {
    
  .heart:before, .heart:after {
    content:"";
-   background-color: #e01911;
+   background-color: #e1b0ac;
    border-radius:50%;
    height: 180px;
    width: 180px;
@@ -130,7 +130,7 @@ body {
    position: absolute;
    width:0;
    height:0;
-   border-left: 190px solid #fbd2d2;
+   border-left: 190px solid #e74fc;
    border-top: 113px solid transparent;
    border-bottom: 113px solid transparent;
    top:-113px;
@@ -142,7 +142,7 @@ body {
    height:0;
    position: absolute;
    content:"";
-   border-bottom: 150px solid #fce7e9;
+   border-bottom: 150px solid #e7fcfa;
    border-right:180px solid transparent;
    border-left: 180px solid transparent;
    top:-36px;
@@ -151,7 +151,7 @@ body {
  
  .text {
    position: absolute;
-   font-family: arial;
+   font-family: montserrat;
    letter-spacing:5px;
    text-align: center;
    color: white;
